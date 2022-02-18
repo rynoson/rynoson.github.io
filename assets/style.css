@@ -211,7 +211,7 @@ a:visited {
 
 .index-container {
     order:2;
-    gap: 40px;
+    gap: 20px;
     align-items: center;
     padding-left: 300px;
     display: flex;
