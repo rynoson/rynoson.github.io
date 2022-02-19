@@ -19,7 +19,7 @@ body {
     scrollbar-width: none;  /* Firefox */
 }
 
-@media only screen and (max-width: 376px) {
+@media only screen and (max-width: 414px) {
 
     .flex-main {
         display:flex;
@@ -33,73 +33,6 @@ body {
         display:flex;
         position:absolute;
         padding-left: 0px !important;
-        margin-top: -190% !important;
-    }
-
-    .index-container {
-        margin-top:300px;
-        padding-left: 0px !important;
-        display:flex;
-        flex-direction: column;
-    }
-
-    #howdy {
-        text-align:center !important
-    }
-
-    p {
-        margin: 10px
-    }
-}
-
-@media (min-width: 377px) and (max-width: 391px) {
-
-    .flex-main {
-        display:flex;
-        flex-direction: column;
-        justify-content: center; /* X AXIS POSITION */
-        align-items:center;
-    }
-
-    .header {
-        height:100% !important;
-        display:flex;
-        position:absolute;
-        padding-left: 0px !important;
-        margin-top:-175% !important;
-    }
-
-    .index-container {
-        margin-top:300px;
-        padding-left: 0px !important;
-        display:flex;
-        flex-direction: column;
-    }
-
-    #howdy {
-        text-align:center !important
-    }
-
-    p {
-        margin: 10px
-    }
-}
-
-@media (min-width: 392px) and (max-width: 415px) {
-
-    .flex-main {
-        display:flex;
-        flex-direction: column;
-        justify-content: center; /* X AXIS POSITION */
-        align-items:center;
-    }
-
-    .header {
-        height: 100% !important;
-        display:flex;
-        position:absolute;
-        padding-left: 0px !important;
-        margin-top: -145% !important;
     }
 
     .index-container {
