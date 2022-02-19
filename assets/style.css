@@ -29,10 +29,11 @@ body {
     }
 
     .header {
+        height:100% !important; 
         display:flex;
         position:absolute;
         padding-left: 0px !important;
-        margin-top:-335% !important;
+        margin-top: -190% !important;
     }
 
     .index-container {
@@ -61,10 +62,11 @@ body {
     }
 
     .header {
+        height:100% !important;
         display:flex;
         position:absolute;
         padding-left: 0px !important;
-        margin-top:-320% !important;
+        margin-top:-175% !important;
     }
 
     .index-container {
@@ -93,10 +95,11 @@ body {
     }
 
     .header {
+        height: 100% !important;
         display:flex;
         position:absolute;
         padding-left: 0px !important;
-        margin-top:-300% !important;
+        margin-top: -145% !important;
     }
 
     .index-container {
