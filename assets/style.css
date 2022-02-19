@@ -19,7 +19,40 @@ body {
     scrollbar-width: none;  /* Firefox */
 }
 
-@media only screen and (max-width: 414px) {
+@media only screen and (min-width: 375px) {
+ 
+    .flex-main {
+        display:flex;
+        flex-direction: column;
+        justify-content: center; /* X AXIS POSITION */
+        align-items:center;
+    }
+
+    .header {
+        height:100% !important; 
+        display:flex;
+        position:absolute;
+        padding-left: 0px !important;
+        margin-top: -190%;
+    }
+
+    .index-container {
+        margin-top:300px;
+        padding-left: 0px !important;
+        display:flex;
+        flex-direction: column;
+    }
+
+    #howdy {
+        text-align:center !important
+    }
+
+    p {
+        margin: 10px
+    }   
+}
+
+@media (min-width: 376px) and (max-width: 390px) {
 
     .flex-main {
         display:flex;
@@ -33,6 +66,40 @@ body {
         display:flex;
         position:absolute;
         padding-left: 0px !important;
+        margin-top: -175%;
+    }
+
+    .index-container {
+        margin-top:300px;
+        padding-left: 0px !important;
+        display:flex;
+        flex-direction: column;
+    }
+
+    #howdy {
+        text-align:center !important
+    }
+
+    p {
+        margin: 10px
+    }
+}
+
+@media (min-width: 391px) and (max-width: 414px) {
+
+    .flex-main {
+        display:flex;
+        flex-direction: column;
+        justify-content: center; /* X AXIS POSITION */
+        align-items:center;
+    }
+
+    .header {
+        height:100% !important; 
+        display:flex;
+        position:absolute;
+        padding-left: 0px !important;
+        margin-top: -150%;
     }
 
     .index-container {
