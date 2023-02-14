@@ -167,6 +167,12 @@ a:visited {
     font-size: 100%
 }
 
+.link {
+    text-decoration: none; 
+    font-size:150% !important;
+    padding: 0
+}
+
 a {
     font-size: 40px;
     color: black;
