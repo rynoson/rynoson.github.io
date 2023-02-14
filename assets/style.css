@@ -168,9 +168,9 @@ a:visited {
 }
 
 .link {
-    text-decoration: none; 
+    text-decoration: none !important; 
     font-size:150% !important;
-    padding: 0
+    padding: 0 !important;
 }
 
 a {
